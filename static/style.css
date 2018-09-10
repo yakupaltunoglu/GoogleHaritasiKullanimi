@@ -1,0 +1,83 @@
+ #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+.control-left-wrapper{
+	z-index:0;
+	position:absolute;
+	left:0;
+	top:60px;
+	cursor:pointer;
+	margin:14px 10px 0;
+}
+.control-left-wrapper .zoom-in,
+.control-left-wrapper .zoom-out,
+.control-left-wrapper .current-location{
+	background:#008000;
+	padding:8px;
+	font-size:18px;
+	color:white;
+	margin-bottom:5px;
+}
+#infobox{
+	background:yellow;
+	opacity:.7;
+	height:300px;
+	padding:15px;
+}
+.infoBox img{
+	z-index:9;
+}
+#container-infobox{
+	background:white;
+	
+	height:100px;
+	
+	margin-right:0px;
+	
+	
+}
+#container-infobox{
+	background:white;
+	
+	height:100px;
+	
+	margin-right:0px;
+	
+	
+}
+.direction{
+	color:blue;
+	font-size:20px;
+	text-decoration:none;
+	text-align: center;
+}
+.yazi{
+	font-family:Georgia;
+	font-size:50px;
+	color:yellow;
+	font-weight:500;
+}
+.yazi1{
+	font-family:Georgia;
+	font-size:50px;
+	color:green;
+	font-weight:500;
+}
+.yazi2{
+	font-family:Georgia;
+	font-size:50px;
+	color:blue;
+	font-weight:500;
+}
+.yazi3{
+	font-family:Georgia;
+	font-size:50px;
+	color:red;
+	font-weight:500;
+}
