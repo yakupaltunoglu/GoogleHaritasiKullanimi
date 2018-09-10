@@ -4,10 +4,10 @@
  */
  class DbConnect
  {
-	 	private $host='50.62.209.83';
+	 	private $host='';
 	 	private $dbname='phpp';
-	 	private $user='yakupa';
-	 	private $pass='altun147';
+	 	private $user='';
+	 	private $pass='';
 
 	 	public function connect(){
 	 		try{
